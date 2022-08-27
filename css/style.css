@@ -29,7 +29,7 @@
 }
 
 .slider .slick-arrow.slick-next {
-    right: 0;
+    right: 54px;
     background: url("../img/arrow-left.svg") 0 0 /100% no-repeat;
 }
 
@@ -45,7 +45,6 @@
 .slider-main {
     position: relative;
     padding: 100px 60px;
-    background: #000;
 }
 
 
@@ -80,7 +79,7 @@
     bottom: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 2;
+    z-index: 100;
     display: none;
 }
 
@@ -103,4 +102,3 @@
 .modal__btn {
     cursor: pointer;
 }
-
